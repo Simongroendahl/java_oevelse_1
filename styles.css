@@ -1,0 +1,22 @@
+body {
+  max-height: 80vh;
+  max-width: 1140px;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.image_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 32px;
+}
+
+.image_wrapper img {
+  border: 2px solid black;
+  border-radius: 18px;
+}
